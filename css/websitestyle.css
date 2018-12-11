@@ -87,6 +87,7 @@ p {
   float:right;
   margin-left: 20px;
   color: rgb(217,0,0);
+  border: 1px solid gray;
 }
 
 .image4 {
