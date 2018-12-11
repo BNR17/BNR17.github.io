@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Cherry+Swash|Open+Sans|Permanent+Marker|Raleway|Sedgwick+Ave');
+
+
+body {
+  background-image: url("../image/Notebook-Paper.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  line-height: 1.5;
+}
+
+body#home {
+  background-image: url("../image/Written-in-My-Soul-Group-High.jpg");
+  background-size: cover;
+}
+
+header {
+  margin-top: 100px;
+}
+
+header h1 {
+  margin-left: -10000px;
+  height: 0;
+}
+
+nav {
+  background-color: rgba(79,82,96,0.90);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: rgb(255,255,255);
+  font-size: 20px;
+
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 0 8px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 30px;
+  color: rgb(103,103,103);
+}
+
+nav li:first-child {
+  font-family: "Permanent Marker", sans-serif;
+  font-size: 36px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+
+h1 {
+  font-family: "Permanent Marker", sans-serif;
+  color: rgb(217,0,0);
+  text-align: center;
+  font-size: 45px;
+}
+
+h2 {
+  font-family: "Permanent Marker", sans-serif;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+.image1 {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.image2 {
+  float: right;
+}
+
+.image3 {
+  float:right;
+  margin-left: 20px;
+}
+
+.image4 {
+  float:left;
+  margin-right: 10px;
+}
+
+.link2 {
+  font-family: "Raleway", sans-serif;
+  color: rgb(217,0,0);
+  font-size: 20px;
+}
+
+#follow div {
+  display: grid;
+  grid-template-columns: 200px 200px;
+}
+/*
+#follow article{
+  overflow: auto;
+  clear: both;
+} */
+
+#wrapper {
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: rgba(255,255,255,0.5);
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: rgb(217,0,0)
+}
