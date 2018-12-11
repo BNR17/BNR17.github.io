@@ -80,11 +80,13 @@ p {
 
 .image2 {
   float: right;
+  border: 1px solid gray;
 }
 
 .image3 {
   float:right;
   margin-left: 20px;
+  color: rgb(217,0,0);
 }
 
 .image4 {
