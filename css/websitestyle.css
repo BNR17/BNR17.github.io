@@ -2,14 +2,14 @@
 
 
 body {
-  background-image: url("../image/notebook-paper.jpg");
+  background-image: url("../image/Notebook-Paper.jpg");
   background-attachment: fixed;
   background-size: cover;
   line-height: 1.5;
 }
 
 body#home {
-  background-image: url("../image/written-in-my-soul-group-high.jpg");
+  background-image: url("../image/Written-in-My-Soul-Group-High.jpg");
   background-size: cover;
 }
 
