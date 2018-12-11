@@ -102,11 +102,7 @@ p {
   display: grid;
   grid-template-columns: 200px 200px;
 }
-/*
-#follow article{
-  overflow: auto;
-  clear: both;
-} */
+
 
 #wrapper {
   max-width: 750px;
@@ -116,6 +112,10 @@ p {
 
 a {
   color: white;
+}
+
+a:hover {
+  color: rgb(217,0,0)
 }
 
 a:visited {
